@@ -1,0 +1,26 @@
+<div class="heading">
+    <img src="../assets/logo.png" width="400px" height="70px" style="margin-right: 2rem;">
+    <div class="font-title">{{title.toUpperCase()}}</div>
+</div>
+<app-header></app-header>
+
+<div><div>
+    <img src="../assets/funnel.png" width="400px" height="500px" style="margin-right: 2rem;">
+</div>
+<div>
+
+    <div class="card-container">
+        <div class="alignment">
+            <div class="card" target="_blank" *ngFor="let card of cards">
+                <div>
+                    <div class="card-body">
+                        <div>
+                            <p>{{card}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div>
+    <div class="header">
+        <div class="days" *ngFor="let day of days">
+            <button>{{day.toUpperCase()}}</button></div>
+    </div>
+    <div class="align" style="margin-top: 2rem;">
+        <div>
+            <app-filter-dropdown></app-filter-dropdown>
+        </div>
+        <div ><button *ngFor="let filter of filters">{{filter.toUpperCase()}}</button></div>
+
+    </div>
+</div>

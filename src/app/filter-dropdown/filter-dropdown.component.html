@@ -1,0 +1,11 @@
+<div class="dropdown">
+  <button class="dropdown-toggle" type="button" data-toggle="dropdown">All Sales Reps <span class="caret"></span></button>
+  <div class="dropdown-menu">
+    <a href="#"  *ngFor="item of items" class="dropdown-item" value="{{item}}">{{item}}</a>
+  </div>
+</div>
+
+<!-- <select class="custom-select" >
+  <option value="" disabled>All Sales Reps</option>
+  <option *ngFor="let dropdownElement of dropdownValues" [ngValue]="dropdownElement">{{dropdownElement}}</option>
+</select> -->
